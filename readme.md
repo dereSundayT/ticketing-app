@@ -15,7 +15,7 @@
          - Deployment 
          - Service (ClusterIP)
      - Skaffold: set up skaffold config file (watch our infra directory for changes) : ```skaffold dev``` to start up the process
-     - Ingress Nginx Setup:
+     - Ingress Nginx Setup/Congiguration:
        - Routing Rules tie to Nginx
        - Has some routing rules that will direct traffic to the appropriate service
        - Anytime a request comes to a cluster, it will be handled by the ingress service, and it will be directed to the appropriate service within the cluster
