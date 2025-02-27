@@ -18,5 +18,5 @@ app.use(signUpRouter);
 
 
 app.listen(3000, () => {
-    console.log('Auth Service : Listening on port 3000 !!!');
+    console.log('Server(Auth Service) 3000');
 });
