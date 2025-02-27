@@ -1,10 +1,13 @@
 
+# - Custom Error Handling
+# - Middleware
 
 
 # Auth Service
    ``` tsc --init ```
    ```npm install typescript ts-node-dev express @types/express```
    ``` npm install express-validator```
+   ```npm i express-async-errors```
    # Setting up Kubernetes Infrastructure Stuff:
      - Create a Dockerfile
      - Create a .dockerignore file to ignore the node_modules
